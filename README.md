@@ -59,6 +59,17 @@ Branches allow you to separate your work from the `main` branch. In other words,
 
 6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
+## Kaomoji generator
+
+As a fun bonus, this repository includes a small script that prints random ASCII
+kaomojis. Run it from the command line:
+
+```bash
+python3 kaomoji_generator.py -n 3
+```
+
+The `-n` option sets how many kaomojis to output.
+
 <footer>
 
 <!--
